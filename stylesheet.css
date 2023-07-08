@@ -1,0 +1,74 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    display: flex;
+    flex-wrap: wrap;
+    width : 400px;
+    border: black solid 1px;
+}
+
+/* .operator{
+    background-color: #50C878;
+    color: white;
+} */
+
+.reset{
+    display: flex;
+    flex-wrap: wrap;
+    width : 100%;
+}
+
+.reset > button{
+    width: 50%;
+    color: white;
+    font-weight: 500;
+}
+
+.reset > #all_clear{
+    background-color: #ff3535;
+}
+
+.reset > #delete{
+    background-color: #2E62A9;
+}
+
+.screen{
+    width: 100%;
+    height : 100px;
+    border: black solid 1px;
+    background-color: rgb(236, 230, 230);
+    text-align: right;
+}
+
+button{
+    height: 80px;
+    width: 100px;
+    border: black solid 1px;
+    font-size: 24px;
+}
+
+#upper{
+    padding: 5px;
+    height: 20%;
+    width : 95%;
+    font-size: 20px;
+}
+
+#lower{
+    font-size: 36px;
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+    height: 80%;
+    width: 95%;
+}
